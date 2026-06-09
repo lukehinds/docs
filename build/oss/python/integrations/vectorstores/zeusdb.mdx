@@ -3,9 +3,9 @@ title: "ZeusDB integration"
 description: "Integrate with the ZeusDB vector store using LangChain Python."
 ---
 
->[ZeusDB](https://www.zeusdb.com) is a high-performance vector database powered by Rust, offering advanced features like product quantization, persistent storage, and enterprise-grade logging.
+> [ZeusDB](https://www.zeusdb.com) is a vector database written in Rust. It supports product quantization, persistent storage, and logging for operational use.
 
-This documentation shows how to use ZeusDB to bring enterprise-grade vector search capabilities to your LangChain applications.
+The following sections show how to use ZeusDB with LangChain.
 
 ---
 
@@ -216,8 +216,9 @@ print(f"Loaded store with {loaded_store.get_vector_count()} vectors")
 
 For guides on how to use this vector store for retrieval-augmented generation (RAG), see the following sections:
 
-- [How-to: Question and answer with RAG](https://python.langchain.com/docs/how_to/#qa-with-rag)
-- [Retrieval conceptual docs](https://python.langchain.com/docs/concepts/retrieval/)
+- [Retrieval docs](/oss/python/langchain/retrieval)
+- [Build a RAG app with LangChain](/oss/python/langchain/rag)
+- [Agentic RAG](/oss/python/langgraph/agentic-rag)
 
 ---
 
@@ -228,10 +229,10 @@ For detailed documentation of all `ZeusDBVectorStore` features and configuration
 ---
 
 <div className="source-links">
-<Callout icon="edit">
-    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/vectorstores/zeusdb.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
-</Callout>
 <Callout icon="terminal-2">
     [Connect these docs](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Callout>
+<Callout icon="edit">
+    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/vectorstores/zeusdb.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
 </Callout>
 </div>

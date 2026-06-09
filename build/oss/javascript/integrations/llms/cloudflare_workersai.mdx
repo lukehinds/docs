@@ -19,7 +19,12 @@ To access Cloudflare Workers AI models you'll need to create a Cloudflare accoun
 
 ### Credentials
 
-Head [to this page](https://developers.cloudflare.com/workers-ai/) to sign up to Cloudflare and generate an API key. Once you've done this, note your `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`.
+Head [to this page](https://developers.cloudflare.com/workers-ai/) to sign up to Cloudflare and generate an API key. Once you've done this, set your credentials in the environment:
+
+```bash
+export CLOUDFLARE_ACCOUNT_ID="your-account-id"
+export CLOUDFLARE_API_TOKEN="your-api-token"
+```
 
 ### Installation
 
@@ -84,10 +89,10 @@ For detailed documentation of all `CloudflareWorkersAI` features and configurati
 ---
 
 <div className="source-links">
-<Callout icon="edit">
-    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/oss/javascript/integrations/llms/cloudflare_workersai.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
-</Callout>
 <Callout icon="terminal-2">
     [Connect these docs](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Callout>
+<Callout icon="edit">
+    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/oss/javascript/integrations/llms/cloudflare_workersai.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
 </Callout>
 </div>

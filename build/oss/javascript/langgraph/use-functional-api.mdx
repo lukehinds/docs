@@ -4,7 +4,6 @@ sidebarTitle: Use the Functional API
 ---
 
 
-
 The [**Functional API**](/oss/javascript/langgraph/functional-api) allows you to add LangGraph's key features ([persistence](/oss/javascript/langgraph/persistence), [memory](/oss/javascript/langgraph/add-memory), [human-in-the-loop](/oss/javascript/langgraph/interrupts), and [streaming](/oss/javascript/langgraph/streaming)) to your applications with minimal changes to your existing code.
 
 <Tip>
@@ -417,6 +416,8 @@ await main.invoke({ any_input: "foobar" }, config);
 ```
 'OK'
 ```
+
+
 
 
 ## Caching tasks
@@ -963,10 +964,10 @@ for await (const chunk of await workflow.stream([inputMessage2], {
 ---
 
 <div className="source-links">
-<Callout icon="edit">
-    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/oss/langgraph/use-functional-api.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
-</Callout>
 <Callout icon="terminal-2">
     [Connect these docs](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+</Callout>
+<Callout icon="edit">
+    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/oss/langgraph/use-functional-api.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
 </Callout>
 </div>
